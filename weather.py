@@ -25,5 +25,6 @@ s=str(s)
 import json
 t=json.loads(s)
 q=t['current']
-
+print(q)
 r=q['condition']
+print(r)
